@@ -3,7 +3,7 @@ import streamlit as st
 import pickle as pkl
 import numpy as np
 
-class_list = {'1': 'Male', '2': 'Female'}
+class_list = {'0': 'Male', '1': 'Female'}
 
 st.title("Dự đoán giới tính của người Việt Nam dựa trên họ tên")
 
